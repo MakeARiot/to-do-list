@@ -18,7 +18,7 @@
                         .appendTo(List);
                     }
                 }
-            }
+            } 
             }
         // Сразу вызываем эту функцию, вдруг в памяти уже остались задачи с прошлого раза
         showTasks();
@@ -42,6 +42,7 @@
                 $('<li></li>').addClass('tdItem')
                 .attr('data-itemid', Mask + number_Id)
                 .text(str).appendTo(List);
+                $('.container .del').show();
             }
         });
         // По клику на задаче — убираем её из списка

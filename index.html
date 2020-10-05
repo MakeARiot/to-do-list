@@ -15,18 +15,19 @@
     <body>
         <!-- Началась визуальная часть -->
         <!-- Ограничиваем ширину списка и ставим его по центру -->
-        <div class="container" style="width: 400px; margin: auto;">
+        <div class="container">
             <!-- Заголовок списка -->
-            <h2 class="todo__caption">Список задач</h2>
+            <h2 class="todo__caption">todo list</h2>
             <!-- Поле ввода, куда пишем новые задачи -->
             <div id="tdlApp">
-            <input type="text" class="form-control" placeholder="Новая задача">
+            <input type="text" class="form-control" placeholder="Новая задача(Enter to confirm)">
             <!-- Создаём пока ещё пустой список -->
             <div class="tdlDiv">
                 <ul class="List list-unstyled">
                 <!-- Тут появятся наши задачи, когда мы их добавим -->
                 </ul>
             </div>
+            <div class="del">Click at task to delete</div>
             </div>
             <!-- Закончили с оформлением списка -->
         </div>
